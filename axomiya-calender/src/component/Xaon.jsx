@@ -5,7 +5,7 @@ export default function Calneder1() {
     <div>
        <div className="calendar-box">
       <div className="calendar-header">
-        <div className="month"> (৩২ দিন)</div>
+        <div className="month">শাওণ (৩১ দিন)</div>
       </div>
 
       <div className="days">
@@ -53,7 +53,7 @@ export default function Calneder1() {
         <div className="day">২৯</div>
         <div className="day">৩০</div>
         <div className="day">৩১</div>
-        <div className="day">৩২</div>
+       
 
         
       </div>
