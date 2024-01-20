@@ -1,5 +1,6 @@
 import React from 'react'
-import Calender1 from './component/Calender1'
+//import Calender1 from './component/Calender1'
+import Xaon from './component/Xaon'
 
 import './component/Calender.css'
 
@@ -7,7 +8,10 @@ import './component/Calender.css'
 const App = () => {
   return (
     <div>
-      <Calender1></Calender1>
+    
+
+      <Xaon></Xaon>
+      
       
       
    
