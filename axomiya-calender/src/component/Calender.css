@@ -13,6 +13,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   width: 100%;
+  margin: 20px; /* Add margin for better spacing */
 }
 
 .calendar-header {
@@ -49,9 +50,23 @@ body {
   color: #3498db;
 }
 
+@media screen and (max-width: 768px) {
+  .days {
+    grid-template-columns: repeat(2, 1fr); /* Adjust for smaller screens */
+  }
+}
 
 @media screen and (max-width: 480px) {
   .days {
-    grid-template-columns: repeat(1, 1fr); 
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .calendar-box {
+    margin: 10px; /* Adjust margin for smaller screens */
+  }
+  
+  .day {
+    font-size: 0.8em; /* Decrease font size for smaller screens */
+    padding: 8px; /* Adjust padding for smaller screens */
   }
 }
