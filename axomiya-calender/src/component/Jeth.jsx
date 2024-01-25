@@ -1,63 +1,95 @@
 import React from 'react'
 
 export default function Calneder1() {
+
+
+  const customDays = [
+    { day: '', content: '', color: 'white' },
+    { day: '', content: '', color: 'white' },
+    { day: '', content: '', color: 'white' },
+    { day: '', content: '', color: 'white' },
+    { day: '', content: '', color: 'white' },
+    { day: '', content: '', color: 'white' },
+
+    { day: '১', content: '15 april', color: 'white' },
+    { day: '২', content: 'april 16', color: 'white' },
+    { day: '৩', content: 'april 17', color: 'white' },
+
+    { day: '৪', content: 'april 18', color: 'white' },
+    { day: '৫', content: 'april 19', color: 'white' },
+    { day: '৬', content: 'april 20', color: 'white' },
+    { day: '৭', content: 'april 21', color: 'white' },
+    { day: '৮', content: 'april 22', color: 'white' },
+    { day: '৯', content: 'april 23', color: 'white' },
+    { day: '১০', content: 'april 24', color: 'white' },
+    { day: '১১', content: 'april 25', color: 'white' },
+    { day: '১২', content: 'april 26', color: 'white' },
+    { day: '১৩', content: 'april 27', color: 'white' },
+    { day: '১৪', content: 'april 28', color: 'white' },
+    { day: '১৫', content: 'april 29', color: 'white' },
+    { day: '১৬', content: 'april 30', color: 'white' },
+    { day: '১৭', content: 'may 1 ', color: 'white' },
+    { day: '১৮', content: 'may 2', color: 'white' },
+    { day: '১৯', content: 'may 3', color: 'white' },
+    { day: '২০', content: 'may 4', color: 'white' },
+    { day: '২১', content: 'may 5', color: 'white' },
+    { day: '২২', content: 'may 6', color: 'white' },
+    { day: '২৩', content: 'may 7', color: 'white' },
+    { day: '২৪', content: 'may 8', color: 'white' },
+    { day: '২৫', content: 'may 9', color: 'white' },
+    { day: '২৬', content: 'may 10', color: 'white' },
+    { day: '২৭', content: 'may 11', color: 'white' },
+    { day: '২৮', content: 'may 12', color: 'white' },
+    { day: '২৯', content: 'may 13', color: 'white' },
+    { day: '৩০', content: 'may 14', color: 'white' },
+    { day: '৩১', content: 'may 15', color: 'white' },
+
+
+    // ... Add more days as needed
+  ];
   return (
-    <div>
-       <div className="calendar-box">
-      <div className="calendar-header">
-        <div className="month">জেঠ (৩২ দিন)</div>
-      </div>
 
-      <div className="days">
-        <div className="day">দেওবাৰ</div>
-        <div className="day">সোমবাৰ</div>
-        <div className="day">মঙলবাৰ	</div>
-        <div className="day">বুধবাৰ</div>
-        <div className="day">বৃহস্পতিবাৰ</div>
-        <div className="day">শুকুৰবাৰ</div>
-        <div className="day">শনিবাৰ</div>
+    <>
+      <div className="month">
+       <ul>
+         <li className="prev">&#10094;</li>
+         <li className="next">&#10095;</li>
+         <li>
+           Jeth (April-May)<br />
+           <span style={{ fontSize: '18px' }}>2023-24</span>
+         </li>
+       </ul>
+     </div>
 
-        {/* Dummy data for January, adjust as needed */}
-        <div className="day"></div>
-        <div className="day"></div>
-        
+     <ul className="weekdays">
+       <li>দেওবাৰ</li>
+       <li>সোমবাৰ</li>
+       <li>মঙলবাৰ</li>
+       <li>বুধবাৰ</li>
+       <li>বৃহস্পতিবাৰ</li>
+       <li>শুকুৰবাৰ</li>
+       <li>শনিবাৰ</li>
 
-        <div className="day">১</div>
-        <div className="day">২</div>
-        <div className="day">৩</div>
-        <div className="day">৪</div>
-        <div className="day">৫</div>
-        <div className="day">৬</div>
-        <div className="day">৭</div>
-        <div className="day">৮</div>
-        <div className="day">৯</div>
-        <div className="day">১০</div>
-        <div className="day">১১</div>
-        <div className="day">১২</div>
-        <div className="day">১৩</div>
-        <div className="day">১৪</div>
-        <div className="day">১৫</div>
-        <div className="day">১৬</div>
-        <div className="day">১৭</div>
-        <div className="day">১৮</div>
-        <div className="day">১৯</div>
-        <div className="day">২০</div>
-        <div className="day">২১</div>
-        <div className="day">২২</div>
-        <div className="day">২৩</div>
-        <div className="day">২৪</div>
-        <div className="day">২৫</div>
-        <div className="day">২৬</div>
-        <div className="day">২৭</div>
-        <div className="day">২৮</div>
-        <div className="day">২৯</div>
-        <div className="day">৩০</div>
-        <div className="day">৩১</div>
-        <div className="day">৩২</div>
+     
+     </ul>
 
-        
-      </div>
-    </div>
+     <ul className="days">
+       {customDays.map(({ day, content, color }) => (
+         <li key={day} style={{ backgroundColor: color }}>
+           {day}
+           <div>{content}</div>
+         </li>
+       ))}
+     </ul>
+
+
+    
+    
+   
+      
+
+      
+
     <ul>
       <li>
         ১-নগাঁও কৰতিপাব নসত্ৰৰ সত্ৰাধিকাৰ পূর্ণচন্দ্র গোস্বামীৰ তিঃতিঃ। খামাৰপাৰ কালী মন্দিবতবার্ষিক হোমযজ্ঞ২১-মহাপুরুষ শ্রীশ্রীমাধরদেরব আবির্ভাব তিথি। মাধরদেবাব্দ ৫৩৪ আৰম্ভ। পাটবাউসীত গোবিন্দদের মিশ্র, মেলেং গ্রান্ট চিপহা সত্ৰাধিকাৰ গহণ চন্দ্র গোস্বামী আকনগাঁও বুঝবাবাহী সত্ৰৰ ধৰ্ম্মপ্রানা সত্রাধিকারিণী আই হিবন্ময়ীৰ তিঃতিঃ। আজিৰ পৰা ১২ জুনলৈ পাৰিপার্শ্বিক সপ্তাহ পালন। 
@@ -84,6 +116,7 @@ export default function Calneder1() {
       <li> ৩২-সন্ধিয়া শ্রীশ্রীসত্যনাৰায়ন ব্রত। পাতিদবং অর্জনাবীশ্বব শিবমন্দিৰত জাগাৰ পূজা।</li>
       
     </ul>
-    </div>
+    
+     </>
   )
 }

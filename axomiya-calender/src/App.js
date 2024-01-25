@@ -4,7 +4,9 @@ import Navbar from './component/Navbar'
 import Bohag from './component/Bohag'
 
 
-import './component/Calender.css'
+
+
+//import './component/Calender.css'
 
 
 const App = () => {
@@ -12,6 +14,13 @@ const App = () => {
     <div>
       <Navbar></Navbar>
       <Bohag></Bohag>
+   
+
+      
+      
+
+   
+
     
 
   
