@@ -1,4 +1,6 @@
 import React from 'react'
+import './Try.css'
+
 
 export default function Calneder1() {
 
@@ -50,12 +52,15 @@ export default function Calneder1() {
   return (
 
     <>
-      <div className="month">
+        <div>
+     
+
+     <div className="month">
        <ul>
          <li className="prev">&#10094;</li>
          <li className="next">&#10095;</li>
          <li>
-           Jeth (April-May)<br />
+           Jeth(April-May)<br />
            <span style={{ fontSize: '18px' }}>2023-24</span>
          </li>
        </ul>
@@ -81,6 +86,7 @@ export default function Calneder1() {
          </li>
        ))}
      </ul>
+   </div>
 
 
     

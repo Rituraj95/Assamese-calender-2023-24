@@ -1,4 +1,6 @@
 import React from 'react'
+import './Try.css'
+
 
 export default function Calneder1() {
   const customDays = [
@@ -46,7 +48,9 @@ export default function Calneder1() {
     // ... Add more days as needed
   ];
   return (
-    <div>
+    <>
+    
+    
                 <div>
      
 
@@ -90,6 +94,7 @@ export default function Calneder1() {
         </li>
     </ul>
 
-    </div>
+    </>
+  
   )
 }

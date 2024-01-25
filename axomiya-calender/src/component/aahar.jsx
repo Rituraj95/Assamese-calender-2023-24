@@ -1,4 +1,6 @@
 import React from 'react'
+import './Try.css'
+
 
 export default function Calneder1() {
   const customDays = [

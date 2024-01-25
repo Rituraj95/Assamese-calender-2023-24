@@ -1,69 +1,89 @@
 import React from 'react'
+import './Try.css'
 
 export default function Calneder1() {
+  const customDays = [
+    { day: '', content: '', color: 'white' },
+    { day: '', content: '', color: 'white' },
+    { day: '', content: '', color: 'white' },
+    { day: '', content: '', color: 'white' },
+    { day: '', content: '', color: 'white' },
+    { day: '', content: '', color: 'white' },
+
+    { day: '১', content: '15 april', color: 'white' },
+    { day: '২', content: 'april 16', color: 'white' },
+    { day: '৩', content: 'april 17', color: 'white' },
+
+    { day: '৪', content: 'april 18', color: 'white' },
+    { day: '৫', content: 'april 19', color: 'white' },
+    { day: '৬', content: 'april 20', color: 'white' },
+    { day: '৭', content: 'april 21', color: 'white' },
+    { day: '৮', content: 'april 22', color: 'white' },
+    { day: '৯', content: 'april 23', color: 'white' },
+    { day: '১০', content: 'april 24', color: 'white' },
+    { day: '১১', content: 'april 25', color: 'white' },
+    { day: '১২', content: 'april 26', color: 'white' },
+    { day: '১৩', content: 'april 27', color: 'white' },
+    { day: '১৪', content: 'april 28', color: 'white' },
+    { day: '১৫', content: 'april 29', color: 'white' },
+    { day: '১৬', content: 'april 30', color: 'white' },
+    { day: '১৭', content: 'may 1 ', color: 'white' },
+    { day: '১৮', content: 'may 2', color: 'white' },
+    { day: '১৯', content: 'may 3', color: 'white' },
+    { day: '২০', content: 'may 4', color: 'white' },
+    { day: '২১', content: 'may 5', color: 'white' },
+    { day: '২২', content: 'may 6', color: 'white' },
+    { day: '২৩', content: 'may 7', color: 'white' },
+    { day: '২৪', content: 'may 8', color: 'white' },
+    { day: '২৫', content: 'may 9', color: 'white' },
+    { day: '২৬', content: 'may 10', color: 'white' },
+    { day: '২৭', content: 'may 11', color: 'white' },
+    { day: '২৮', content: 'may 12', color: 'white' },
+    { day: '২৯', content: 'may 13', color: 'white' },
+    { day: '৩০', content: 'may 14', color: 'white' },
+    { day: '৩১', content: 'may 15', color: 'white' },
+
+
+    // ... Add more days as needed
+  ];
   return (
-    <div>
-       <div className="calendar-box">
-      <div className="calendar-header">
-        <div className="month">আঘোণ (৩০ দিন)</div>
-      </div>
+    <>
+      <div>
+     
 
-      <div className="days">
-        <div className="day">দেওবাৰ</div>
-        <div className="day">সোমবাৰ</div>
-        <div className="day">মঙলবাৰ	</div>
-        <div className="day">বুধবাৰ</div>
-        <div className="day">বৃহস্পতিবাৰ</div>
-        <div className="day">শুকুৰবাৰ</div>
-        <div className="day">শনিবাৰ</div>
-
-        {/* Dummy data for January, adjust as needed */}
-        <div className="day"></div>
-        <div className="day"></div>
-        <div className="day"></div>
-        <div className="day"></div>
-        <div className="day"></div>
-        <div className="day"></div>
-
-        
-
-        <div className="day">১</div>
-        <div className="day">২</div>
-        <div className="day">৩</div>
-        <div className="day">৪</div>
-        <div className="day">৫</div>
-        <div className="day">৬</div>
-        <div className="day">৭</div>
-        <div className="day">৮</div>
-        <div className="day">৯</div>
-        <div className="day">১০</div>
-        <div className="day">১১</div>
-        <div className="day">১২</div>
-        <div className="day">১৩</div>
-        <div className="day">১৪</div>
-        <div className="day">১৫</div>
-        <div className="day">১৬</div>
-        <div className="day">১৭</div>
-        <div className="day">১৮</div>
-        <div className="day">১৯</div>
-        <div className="day">২০</div>
-        <div className="day">২১</div>
-        <div className="day">২২</div>
-        <div className="day">২৩</div>
-        <div className="day">২৪</div>
-        <div className="day">২৫</div>
-        <div className="day">২৬</div>
-        <div className="day">২৭</div>
-        <div className="day">২৮</div>
-        <div className="day">২৯</div>
-        <div className="day">৩০</div>
-   
-      
-
-        
-      </div>
-    </div>
-    <ul>
+     <div className="month">
+       <ul>
+         <li className="prev">&#10094;</li>
+         <li className="next">&#10095;</li>
+         <li>
+           বহাগ (April-May)<br />
+           <span style={{ fontSize: '18px' }}>2023-24</span>
+         </li>
+       </ul>
+     </div>
+ 
+     <ul className="weekdays">
+       <li>দেওবাৰ</li>
+       <li>সোমবাৰ</li>
+       <li>মঙলবাৰ</li>
+       <li>বুধবাৰ</li>
+       <li>বৃহস্পতিবাৰ</li>
+       <li>শুকুৰবাৰ</li>
+       <li>শনিবাৰ</li>
+ 
+     
+     </ul>
+ 
+     <ul className="days">
+       {customDays.map(({ day, content, color }) => (
+         <li key={day} style={{ backgroundColor: color }}>
+           {day}
+           <div>{content}</div>
+         </li>
+       ))}
+     </ul>
+   </div>
+      <ul>
         <li>
         Aaghun
 ১ -দিহিং নমাটি সত্রত (নাজিৰা) সৰ্ব্বসিদ্ধি দেৱৰ তিঃতিঃ। ২-মাজুলী উত্তৰ কমলাবাৰীৰ চন্দ্ৰকান্ত ভাগৱতী, বৰবৰী সত্ৰৰ প্রফুল্ল চন্দ্ৰ গোস্বামীৰ তিঃতিঃ। বিহালীৰ গাংমৌ থানৰ সত্ৰাধিকাৰ * পৰমানন্দ মিৰি আতাৰ স্মৃতি দিৱস।৩-চামুণ্ডৰীৰ সত্ৰাধিকাৰ কমল চন্দ্র গোস্বামীৰ তিঃতিঃ ।৪- নবোদয় আশ্ৰমৰ প্ৰতিষ্ঠা দিৱস।৫-জ্যোতিষী ভগবান শৰ্ম্মাৰ তিঃতিঃ।৬-বৰপেটা ধামত সুকমল আতাৰ, বৰঠাই নগৰীয়া সত্ৰৰ সৰ্বানন্দ দেবৰ, দিহিং সত্রত ভগবান চন্দ্র দেব, লক্ষীমপুৰ আখৈফুটীয়ী শলগুৰী সত্ৰত ঘুনুচি গোস্বামী, বিষ্ণুপুৰ ধামত ৰমানাথ হাজৰিকা আৰু লোককৃষ্টিৰ সেৱক ড পবন বৰদলৈৰ তিঃতিঃ। উত্তৰশালমাৰা আৰক্ষী চকী চৌহদত শ্রশ্রীকালীপূজা উৎসর। কৰকহী গাঁৱত শ্রীশ্রীদক্ষিণা কালী পূজা উৎসব।৭-মায়ামৰা বিষ্ণু বালিকুছিব জয়কান্ত দেবব তিৰোভাবোপলক্ষে কীৰ্ত্তন পাঠ। গোলাঘাটৰ বাহজেঙনী এলেঙি সত্রত দেবেন্দ্র নাথ মহস্ত সত্ৰাধিকাৰৰ তিঃতিঃ। বীৰ লাচিত দিৱস। গুৰু টেগ বাহাদুৰ শ্বহীদ দিবস। ৮- শ্রীমৎ স্বামী কৃষ্ণানন্দ ব্ৰহ্মচাৰীৰ আবির্ভার তিথি উপলক্ষে মানিকপুৰ গোবিন্দ ভবন গীতা সত্রত দুই দিনীয়া - গীতা জয়ন্তী মহোৎসব আৰু পূর্বদিনত ধর্মসভা। ব্রহ্মজান ধোপাবৰ সত্ৰত চন্দ্রকান্ত দেবব, কাঠবাপু সত্ৰাধিকাৰ কমলেশ্বৰ মেধীজান গজলা সত্ৰত অধিকাৰ লক্ষীনাথ মহন্তৰ তিঃতিঃ।৯- যোৰহাট লেটুগ্রাম সত্ৰত নিৰঞ্জন দেব অধিকাৰ গোস্বামী আৰু লাওকটা কালশিলা সত্ৰত সত্ৰাধিকাৰ -- সোনাবাম মহন্তৰ তিঃতিঃ। ১০-মধুমিশ্র সত্ৰাধিকাৰ প্ৰেমনাথ গোস্বামী, শুকদ'ল বৰবড়ি শলগুৰী সত্ৰৰ কলি কোছ আৰু নৱমাটি কাটনিপাৰ সত্ৰত কানাইদের অধিকাৰৰ তিঃতিঃ।১১-দৰংগিৰী দিননাথ শান্তি আশ্রমব প্রতিষ্ঠাতা উৎসর।১২-দিচিৰী সত্রত কৃষ্ণ মিশ্রদেব, দিহিং নমাটি সত্রত (নাজিৰা) কৃষ্ণদের আক ধৰ্ম্মকান্ত দেৱ, উত্তৰ লক্ষিমপুৰ দাংধৰা সত্ৰত ভদ্রেশ্বৰ গোস্বামী আৰু তিতাবৰ সত্ৰৰ মুহিকান্ত দেবৰ তিঃতিঃ। জ্ঞানপীঠ বটা বিজয়ী মামনি ৰয়চম গোস্বামীৰ স্মৃতি দিৱস।১৩-শালমাৰা বামুন্দী সত্ৰৰ সত্ৰাধিকাৰ ৰজত চন্দ্ৰ গোস্বামী, চামগুৰি (মাজুলী) সত্ৰত ববিকান্ত দেৱ গোস্বামীৰ তিঃতিঃ। নমাটি সত্ৰৰ প্রতিষ্ঠাতা মুকুণ্ডদেবৰ তিথি উপলক্ষে কেওতকুছি সত্ৰত তিথি পালন আৰু লক্ষ্মী পূজা।১৪-মহাপুৰুষ শ্রীশ্রীভট্টদেৱৰ আবির্ভার তিথি। ধর্মাচার্য্য শ্রীশ্রীভগবান দেৱৰ আবির্ভার তিথি। ১৫-চ্যুকাফা দিবস।১৬-পাটবাসী বিষ্ণুপুৰ বটদ্ৰবা ধামত কালিন্দ্রী গোসানীৰ নতুন কমলাবাৰী সত্ৰৰ ঘনকান্ত আতা, আৰু জৰাবাৰী সত্ৰৰ নিত্যানন্দ গোস্বামীর তিঃতিঃ। গীতপুৰ সত্ৰ আৰু মৰিগাওঁ গোবিন্দ ভবন গীতা সত্রত গীতা জয়ন্তী - মহোৎসর।১৭-কমলাবাৰী সত্ৰৰ মনিৰাম দত্ত বায়ন মুক্তিয়াৰ, টিহু আঠিয়াবাৰীৰ স্বামী মাধবানন্দ ব্ৰহ্মচাৰী আৰু কাংসপাৰ সত্ৰত (বেনিমুখীয়া) শিবধন দেবব তিঃতিঃ।১৮-চিপহা সত্রত শিশুৰাম দেব আৰু মোলানকটা উজনিঠাই কাংশপাৰ সত্ৰৰ প্রতিষ্ঠাতা সত্ৰাধিকাৰ ৰামকানু আতাৰ তিঃতিঃ ।১৯-সন্ধিয়া পাষাণ চতুর্দশী ব্রত। গুরাহাটী পাঞ্জাবাৰীত শঙ্কৰদেব সত্র প্রতিষ্ঠা দিৱস।২০- দহকনীয়াৰ সভা। বৰপেটা ঘোঁৰামাৰা হাটিত হবিদাস বনিয়া আতা, জাগৰা সত্ৰত হৰিচৰন গোস্বামীৰ তিঃতিঃ ।২১-একশৰণ ভাগবতী সমাজ অসমৰ প্রতিষ্ঠা দিবস।২২-কলীয়াবৰ মাধবআতা সত্ৰত ৰজনী গোস্বামীৰ তিঃতিঃ। ২৩-ডিনবহাত গগ সত্রত লক্ষ্মন দেব গোস্বামী, চলিহা -বাৰেঘৰ সত্ৰত বিষ্ণুবাম দেবব তিঃতিঃ। শ্বহীদ দিবস। ২৪-দক্ষিণ কামৰূপৰ বালিয়াপাৰাৰ সমাজসেবক শৈলেন্দ্র কলিতাৰ তিঃতিঃ।২৫-কাথবাপু সত্ৰৰ ভোলানাথ গোস্বামীর তিঃতিঃ। ২৬- - গোলাঘাট মধুমিশ্র সত্ৰত বাধিকা নাথ গোস্বামী তিঃতিঃ।২৭-চিপহা সত্ৰৰ ৰমাকান্ত গোস্বামীৰ তিঃতিঃ। ২৮-দিহিংৰ সনাতন আতাব তিঃতিঃ। বেলগুৰি সত্রত ভাগবত পাঠ আৰু নাম প্রসঙ্গ।২৯- সন্ধিয়া শ্রীশ্রীসত্যনাৰায়ণ ব্রত। মানিকপুৰ দিনহাটা আৰু মৰিগাঁৱত গীতা জয়ন্তী পালন। কেওটকুছি -নমাটি সুত্রত মুকুন্দ দেব গোস্বামী, দক্ষিণপাট সত্রত কামদেব, নৰোৱা বালি সত্ৰৰ যোগেন্দ্র দেব গোস্বামীরজালী বাঘমাৰৰ ধৰ্ম্মপ্রাণা সুভদ্রা দেৱী আৰু আউনীআটীয় সত্ৰাধিকাৰ লক্ষ্মীবাম দেৱৰ
@@ -73,7 +93,11 @@ export default function Calneder1() {
 ৰবিশুদ্ধি
         </li>
     </ul>
+    
+    
+    </>
 
-    </div>
+ 
+
   )
 }

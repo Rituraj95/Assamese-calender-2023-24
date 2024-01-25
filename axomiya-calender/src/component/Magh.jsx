@@ -1,4 +1,6 @@
 import React from 'react'
+import './Try.css'
+
 
 export default function Calneder1() {
   const customDays = [
@@ -48,9 +50,8 @@ export default function Calneder1() {
   
   return (
    <>
-
-<div>
-
+     <div>
+     
 
      <div className="month">
        <ul>
@@ -62,7 +63,7 @@ export default function Calneder1() {
          </li>
        </ul>
      </div>
- 
+
      <ul className="weekdays">
        <li>দেওবাৰ</li>
        <li>সোমবাৰ</li>
@@ -71,10 +72,10 @@ export default function Calneder1() {
        <li>বৃহস্পতিবাৰ</li>
        <li>শুকুৰবাৰ</li>
        <li>শনিবাৰ</li>
- 
+
      
      </ul>
- 
+
      <ul className="days">
        {customDays.map(({ day, content, color }) => (
          <li key={day} style={{ backgroundColor: color }}>
@@ -84,6 +85,8 @@ export default function Calneder1() {
        ))}
      </ul>
    </div>
+
+
  
     <ul>
         <li>
