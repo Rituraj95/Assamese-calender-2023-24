@@ -7,6 +7,31 @@
   pointer-events: none;
 }
 
+.menu-btn {
+  display: block;
+  /* Add styling for the dropdown button */
+}
+
+.nav-links {
+  display: none; /* Hide the dropdown by default */
+}
+
+.nav-links.open {
+  display: block; /* Show the dropdown when the "open" class is applied */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links.open li {
+  padding: .5em;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

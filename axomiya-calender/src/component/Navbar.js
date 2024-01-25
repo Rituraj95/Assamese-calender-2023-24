@@ -1,39 +1,74 @@
 import React from 'react';
-import './navbar.css';
 import { Link } from 'react-router-dom';
 
-
-const Navbar = () => {
+const MyNavbar = () => {
   return (
-    <header>
-      <nav>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <Link className="navbar-brand" to="/">
         পঞ্জিকা
-        <button></button>
+      </Link>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
 
-        <ul>
-        
-          <li><Link to="/Bohag">ব’হাগ</Link></li>
-          <li><Link to="/Jeth">জেঠ</Link></li>
-          <li><Link to="/Aahar">আহাৰ</Link></li>
-          <li><Link to="/Xaon">শাওণ</Link></li>
-          <li><Link to="/Bhado">ভাদ</Link></li>
-          <li><Link to="/Aahin">আহিন</Link></li>
-          <li><Link to="/kati">কাতি</Link></li>
-          <li><Link to="/Aaghun">আঘোণ</Link></li>
-          <li><Link to="/Puh">পুহ</Link></li>
-          <li><Link to="/Magh">মাঘ</Link></li>
-          <li><Link to="/Phagun">ফাগুন</Link></li>
-          <li><Link to="/Sout">চ’ত</Link></li>
-
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav mr-auto">
+          <li className="nav-item active">
+            <Link className="nav-link" to="/">
+              Home <span className="sr-only">(current)</span>
+            </Link>
+          </li>
+       
+          <li className="nav-item">
+            <Link className="nav-link" to="/Bohag">ব’হাগ</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/Jeth">জেঠ</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/Aahar">আহাৰ</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/Xaon">শাওণ</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/Xaon">bhado</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/Xaon">Aahin</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/Xaon">Kati</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/Xaon">Aaghun</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/Xaon">Puh</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/Xaon">Magh</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/Xaon">Phagun</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/Xaon">Sout</Link>
+          </li>
           
-
-
-         
-      
+          {/* Add other navigation links in a similar way */}
         </ul>
-      </nav>
-    </header>
+      </div>
+    </nav>
   );
 };
 
-export default Navbar;
+export default MyNavbar;

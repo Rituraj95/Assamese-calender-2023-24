@@ -1,4 +1,5 @@
 import React from 'react'
+
 //import Calender1 from './component/Calender1'
 import Navbar from './component/Navbar'
 import Jeth from './component/Jeth'
@@ -27,6 +28,7 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 const App = () => {
   return (
     <Router>
+      
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Bohag/>}></Route>
