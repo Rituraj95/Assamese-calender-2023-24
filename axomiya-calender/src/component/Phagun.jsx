@@ -53,8 +53,7 @@ export default function Calneder1() {
 
      <div className="month">
        <ul>
-         <li className="prev">&#10094;</li>
-         <li className="next">&#10095;</li>
+        
          <li>
            বহাগ (April-May)<br />
            <span style={{ fontSize: '18px' }}>2023-24</span>
