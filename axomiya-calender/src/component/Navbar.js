@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from './Asset/logo.jpg'
 
 const MyNavbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
-        পঞ্জিকা
-      </Link>
+    <nav className="navbar navbar-expand-lg navbar-light "  style={{background:"#fbf39d"}} >
+   <img src={logo} alt="" style={{height:'30px'}} />
       <button
         className="navbar-toggler"
         type="button"
@@ -36,28 +35,28 @@ const MyNavbar = () => {
             <Link className="nav-link" to="/Xaon">শাওণ</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Xaon">bhado</Link>
+            <Link className="nav-link" to="/Xaon">ভাদ</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Xaon">Aahin</Link>
+            <Link className="nav-link" to="/Xaon">আহিন</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Xaon">Kati</Link>
+            <Link className="nav-link" to="/Xaon">কাতি</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Xaon">Aaghun</Link>
+            <Link className="nav-link" to="/Xaon">আঘোণ</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Xaon">Puh</Link>
+            <Link className="nav-link" to="/Xaon">পুহ</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Xaon">Magh</Link>
+            <Link className="nav-link" to="/Xaon">মাঘ </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Xaon">Phagun</Link>
+            <Link className="nav-link" to="/Xaon">ফাগুন</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Xaon">Sout</Link>
+            <Link className="nav-link" to="/Xaon">চ’ত</Link>
           </li>
           
           {/* Add other navigation links in a similar way */}

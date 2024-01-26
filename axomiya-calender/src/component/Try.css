@@ -6,6 +6,10 @@ body {font-family: Verdana, sans-serif;}
   padding: 70px 25px;
   width: 100%;
   background: #1abc9c;
+  background-image: url(Asset/bohagg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
   text-align: center;
 }
 
@@ -16,9 +20,11 @@ body {font-family: Verdana, sans-serif;}
 
 .month ul li {
   color: white;
+  background-color: black;
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 3px;
+  border-radius: 30px;
 }
 
 
@@ -26,19 +32,23 @@ body {font-family: Verdana, sans-serif;}
 .weekdays {
   margin: 0;
   padding: 10px 0;
-  background-color: #ddd;
+  background-color: #ffed2d;
 }
+.content{
+  background-color: #fbf39d;
 
+}
 .weekdays li {
   display: inline-block;
   width: 13.6%;
-  color: #666;
+  color: #150808;
   text-align: center;
+  font-size: bold;
 }
 
 .days {
   padding: 10px 0;
-  background: #eee;
+  background: #3ae77d;
   margin: 0;
 }
 
@@ -47,10 +57,13 @@ body {font-family: Verdana, sans-serif;}
   list-style-type: none;
   display: inline-block;
   width: 13.6%;
+  
+  
   text-align: center;
   margin-bottom: 5px;
   font-size:12px;
-  color: #777;
+  color: black;
+  border-radius: 9px;
 }
 
 .days li .active {
@@ -61,7 +74,7 @@ body {font-family: Verdana, sans-serif;}
 
 
 @media screen and (max-width:720px) {
-  .weekdays li, .days li {width: 13.1%;}
+  .weekdays li, .days li {width: 13.1%;font-size: xx-small;}
 }
 
 @media screen and (max-width: 420px) {
