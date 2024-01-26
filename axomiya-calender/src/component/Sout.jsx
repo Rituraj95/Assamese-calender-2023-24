@@ -11,40 +11,42 @@ export default function Calneder1() {
     { day: '', content: '', color: 'white' },
     { day: '', content: '', color: 'white' },
     { day: '', content: '', color: 'white' },
-    { day: '', content: '', color: 'white' },
+    
 
-    { day: '১', content: '15 april', color: 'white' },
-    { day: '২', content: 'april 16', color: 'white' },
-    { day: '৩', content: 'april 17', color: 'white' },
+    
 
-    { day: '৪', content: 'april 18', color: 'white' },
-    { day: '৫', content: 'april 19', color: 'white' },
-    { day: '৬', content: 'april 20', color: 'white' },
-    { day: '৭', content: 'april 21', color: 'white' },
-    { day: '৮', content: 'april 22', color: 'white' },
-    { day: '৯', content: 'april 23', color: 'white' },
-    { day: '১০', content: 'april 24', color: 'white' },
-    { day: '১১', content: 'april 25', color: 'white' },
-    { day: '১২', content: 'april 26', color: 'white' },
-    { day: '১৩', content: 'april 27', color: 'white' },
-    { day: '১৪', content: 'april 28', color: 'white' },
-    { day: '১৫', content: 'april 29', color: 'white' },
-    { day: '১৬', content: 'april 30', color: 'white' },
-    { day: '১৭', content: 'may 1 ', color: 'white' },
-    { day: '১৮', content: 'may 2', color: 'white' },
-    { day: '১৯', content: 'may 3', color: 'white' },
-    { day: '২০', content: 'may 4', color: 'white' },
-    { day: '২১', content: 'may 5', color: 'white' },
-    { day: '২২', content: 'may 6', color: 'white' },
-    { day: '২৩', content: 'may 7', color: 'white' },
-    { day: '২৪', content: 'may 8', color: 'white' },
-    { day: '২৫', content: 'may 9', color: 'white' },
-    { day: '২৬', content: 'may 10', color: 'white' },
-    { day: '২৭', content: 'may 11', color: 'white' },
-    { day: '২৮', content: 'may 12', color: 'white' },
-    { day: '২৯', content: 'may 13', color: 'white' },
-    { day: '৩০', content: 'may 14', color: 'white' },
-    { day: '৩১', content: 'may 15', color: 'white' },
+    { day: '১', content: 'march 15', color: 'white' },
+    { day: '২', content: 'march 16', color: 'white' },
+    { day: '৩', content: 'march 17', color: 'red' },
+
+    { day: '৪', content: 'march 18', color: 'white' },
+    { day: '৫', content: 'march 19', color: 'white' },
+    { day: '৬', content: 'march 20', color: 'white' },
+    { day: '৭', content: 'march 21', color: 'white' },
+    { day: '৮', content: 'march 22', color: 'white' },
+    { day: '৯', content: 'march 23', color: 'white' },
+    { day: '১০', content: 'march 24', color: 'red' },
+    { day: '১১', content: 'march 25', color: 'white' },
+    { day: '১২', content: 'march 26', color: 'white' },
+    { day: '১৩', content: 'march 27', color: 'white' },
+    { day: '১৪', content: 'march 28', color: 'white' },
+    { day: '১৫', content: 'march 29', color: 'white' },
+    { day: '১৬', content: 'march 30', color: 'white' },
+    { day: '১৭', content: 'march 31 ', color: 'red' },
+    { day: '১৮', content: 'april 1', color: 'white' },
+    { day: '১৯', content: 'april 2', color: 'white' },
+    { day: '২০', content: 'april 3', color: 'white' },
+    { day: '২১', content: 'april 4', color: 'white' },
+    { day: '২২', content: 'april 5', color: 'white' },
+    { day: '২৩', content: 'april 6', color: 'white' },
+    { day: '২৪', content: 'april 7', color: 'red' },
+    { day: '২৫', content: 'april 8', color: 'white' },
+    { day: '২৬', content: 'april 9', color: 'white' },
+    { day: '২৭', content: 'april 10', color: 'white' },
+    { day: '২৮', content: 'april 11', color: 'white' },
+    { day: '২৯', content: 'april 12', color: 'white' },
+    { day: '৩০', content: 'april 13', color: 'white' },
+ 
 
 
     // ... Add more days as needed
@@ -66,7 +68,7 @@ export default function Calneder1() {
        <ul>
        
          <li>
-         চ’ত  (April-May)<br />
+         চ’ত  (march-april)<br />
            <span style={{ fontSize: '18px' }}>2023-24</span>
          </li>
        </ul>

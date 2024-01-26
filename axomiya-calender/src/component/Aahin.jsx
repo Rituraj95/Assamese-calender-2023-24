@@ -62,7 +62,7 @@ export default function Calneder1() {
        <ul>
        
          <li>
-           বহাগ (April-May)<br />
+         আহিন (April-May)<br />
            <span style={{ fontSize: '18px' }}>2023-24</span>
          </li>
        </ul>
