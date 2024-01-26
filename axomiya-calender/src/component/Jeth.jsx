@@ -2,6 +2,7 @@ import React from 'react'
 import './Try.css'
 
 
+
 export default function Calneder1() {
 
 
@@ -53,13 +54,21 @@ export default function Calneder1() {
 
     <>
         <div>
+
+        <div className="month"
+    style={{
+    backgroundImage: `url(${require('./Asset/lachit.jpg')})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+  }}
+>
      
 
-     <div className="month">
+    
        <ul>
          
          <li>
-           Jeth(April-May)<br />
+         জেঠ(April-May)<br />
            <span style={{ fontSize: '18px' }}>2023-24</span>
          </li>
        </ul>
@@ -95,7 +104,7 @@ export default function Calneder1() {
 
       
 
-    <ul>
+    <ul className='content'>
       <li>
         ১-নগাঁও কৰতিপাব নসত্ৰৰ সত্ৰাধিকাৰ পূর্ণচন্দ্র গোস্বামীৰ তিঃতিঃ। খামাৰপাৰ কালী মন্দিবতবার্ষিক হোমযজ্ঞ২১-মহাপুরুষ শ্রীশ্রীমাধরদেরব আবির্ভাব তিথি। মাধরদেবাব্দ ৫৩৪ আৰম্ভ। পাটবাউসীত গোবিন্দদের মিশ্র, মেলেং গ্রান্ট চিপহা সত্ৰাধিকাৰ গহণ চন্দ্র গোস্বামী আকনগাঁও বুঝবাবাহী সত্ৰৰ ধৰ্ম্মপ্রানা সত্রাধিকারিণী আই হিবন্ময়ীৰ তিঃতিঃ। আজিৰ পৰা ১২ জুনলৈ পাৰিপার্শ্বিক সপ্তাহ পালন। 
       </li>

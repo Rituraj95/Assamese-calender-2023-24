@@ -51,7 +51,12 @@ export default function Calneder1() {
                 <div>
      
 
-     <div className="month">
+                <div className="month"
+    style={{
+    backgroundImage: `url(${require('./Asset/tea.jpg')})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+  }}>
        <ul>
         
          <li>

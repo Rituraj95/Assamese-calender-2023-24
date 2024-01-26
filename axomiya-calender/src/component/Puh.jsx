@@ -5,11 +5,7 @@ export default function Calneder1() {
 
   const customDays = [
     { day: '', content: '', color: 'white' },
-    { day: '', content: '', color: 'white' },
-    { day: '', content: '', color: 'white' },
-    { day: '', content: '', color: 'white' },
-    { day: '', content: '', color: 'white' },
-    { day: '', content: '', color: 'white' },
+    
 
     { day: '১', content: '15 april', color: 'white' },
     { day: '২', content: 'april 16', color: 'white' },
@@ -41,8 +37,7 @@ export default function Calneder1() {
     { day: '২৭', content: 'may 11', color: 'white' },
     { day: '২৮', content: 'may 12', color: 'white' },
     { day: '২৯', content: 'may 13', color: 'white' },
-    { day: '৩০', content: 'may 14', color: 'white' },
-    { day: '৩১', content: 'may 15', color: 'white' },
+    
 
 
     // ... Add more days as needed
@@ -51,12 +46,16 @@ export default function Calneder1() {
     <div>
        <div>
      
-
-     <div className="month">
+       <div className="month"
+    style={{
+    backgroundImage: `url(${require('./Asset/handloom.jpg')})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+  }}>
        <ul>
         
          <li>
-           বহাগ (April-May)<br />
+         পুহ (Dec-Jan)<br />
            <span style={{ fontSize: '18px' }}>2023-24</span>
          </li>
        </ul>

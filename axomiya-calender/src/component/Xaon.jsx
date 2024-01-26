@@ -50,12 +50,17 @@ export default function Calneder1() {
     <>
           <div>
      
-
-     <div className="month">
+          <div className="month"
+    style={{
+    backgroundImage: `url(${require('./Asset/kheti.png')})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+  }}>
+    
        <ul>
     
          <li>
-           Xaon (April-May)<br />
+         শাওণ (April-May)<br />
            <span style={{ fontSize: '18px' }}>2023-24</span>
          </li>
        </ul>

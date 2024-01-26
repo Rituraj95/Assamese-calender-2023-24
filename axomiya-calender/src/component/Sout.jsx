@@ -57,11 +57,16 @@ export default function Calneder1() {
                <div>
      
 
-     <div className="month">
+               <div className="month"
+    style={{
+    backgroundImage: `url(${require('./Asset/deep.jpg')})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+  }}>
        <ul>
        
          <li>
-           বহাগ (April-May)<br />
+         চ’ত  (April-May)<br />
            <span style={{ fontSize: '18px' }}>2023-24</span>
          </li>
        </ul>

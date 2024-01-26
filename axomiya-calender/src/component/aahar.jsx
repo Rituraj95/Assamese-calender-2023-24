@@ -51,11 +51,17 @@ export default function Calneder1() {
   return (
  <>
 
-        <div className="month">
+<div className="month"
+    style={{
+    backgroundImage: `url(${require('./Asset/saraighat.jpg')})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+  }}>
+
        <ul>
        
          <li>
-           Aahar (April-May)<br />
+         আহাৰ (April-May)<br />
            <span style={{ fontSize: '18px' }}>2023-24</span>
          </li>
        </ul>
@@ -85,7 +91,7 @@ export default function Calneder1() {
 
 
 
-    <ul>
+    <ul className='content'>
       <li>
 ১-নৱমাটি কাটনীপাৰ সত্ৰত যুগলনাথ আৰু চিদানন্দ দেৱৰ তিঃতিঃ।
  

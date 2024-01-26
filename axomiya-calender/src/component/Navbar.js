@@ -35,28 +35,28 @@ const MyNavbar = () => {
             <Link className="nav-link" to="/Xaon">শাওণ</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Xaon">ভাদ</Link>
+            <Link className="nav-link" to="/Bhado">ভাদ</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Xaon">আহিন</Link>
+            <Link className="nav-link" to="/Aahin">আহিন</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Xaon">কাতি</Link>
+            <Link className="nav-link" to="/Kati">কাতি</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Xaon">আঘোণ</Link>
+            <Link className="nav-link" to="/Aaghun">আঘোণ</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Xaon">পুহ</Link>
+            <Link className="nav-link" to="/Puh">পুহ</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Xaon">মাঘ </Link>
+            <Link className="nav-link" to="/Magh">মাঘ </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Xaon">ফাগুন</Link>
+            <Link className="nav-link" to="/Phagun">ফাগুন</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Xaon">চ’ত</Link>
+            <Link className="nav-link" to="/Sout">চ’ত </Link>
           </li>
           
           {/* Add other navigation links in a similar way */}

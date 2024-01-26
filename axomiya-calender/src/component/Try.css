@@ -6,12 +6,11 @@ body {font-family: Verdana, sans-serif;}
   padding: 70px 25px;
   width: 100%;
   background: #1abc9c;
-  background-image: url(Asset/bohagg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  
 
   text-align: center;
 }
+
 
 .month ul {
   margin: 0;
@@ -33,6 +32,7 @@ body {font-family: Verdana, sans-serif;}
   margin: 0;
   padding: 10px 0;
   background-color: #ffed2d;
+  border: 2px solid #cbda24;
 }
 .content{
   background-color: #fbf39d;
@@ -48,7 +48,7 @@ body {font-family: Verdana, sans-serif;}
 
 .days {
   padding: 10px 0;
-  background: #3ae77d;
+  background: #debd3c;
   margin: 0;
 }
 
