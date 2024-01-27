@@ -11,38 +11,38 @@ export default function Calneder1() {
     { day: '', content: '', color: 'white' },
     { day: '', content: '', color: 'white' },
 
-    { day: '১', content: 'june 17', color: 'white' },
-    { day: '২', content: 'june 18', color: 'red' },
-    { day: '৩', content: 'june 19', color: 'white' },
+    { day: '১', content: 'august 19', color: 'white' },
+    { day: '২', content: 'august 20', color: 'red' },
+    { day: '৩', content: 'august 21', color: 'white' },
 
-    { day: '৪', content: 'june 20', color: 'white' },
-    { day: '৫', content: 'june 21', color: 'white' },
-    { day: '৬', content: 'june 22', color: 'white' },
-    { day: '৭', content: 'june 23', color: 'white' },
-    { day: '৮', content: 'june 24', color: 'white' },
-    { day: '৯', content: 'june 25', color: 'red' },
-    { day: '১০', content: 'june 26', color: 'white' },
-    { day: '১১', content: 'june 27', color: 'white' },
-    { day: '১২', content: 'june 28', color: 'white' },
-    { day: '১৩', content: 'june 29', color: 'white' },
-    { day: '১৪', content: 'june 30', color: 'white' },
-    { day: '১৫', content: 'july 1', color: 'white' },
-    { day: '১৬', content: 'july 2', color: 'red' },
-    { day: '১৭', content: 'july 2 ', color: 'white' },
-    { day: '১৮', content: 'july 3', color: 'white' },
-    { day: '১৯', content: 'july 4', color: 'white' },
-    { day: '২০', content: 'july 5', color: 'white' },
-    { day: '২১', content: 'july 6', color: 'white' },
-    { day: '২২', content: 'july 7', color: 'white' },
-    { day: '২৩', content: 'july 8', color: 'red' },
-    { day: '২৪', content: 'july 9', color: 'white' },
-    { day: '২৫', content: 'july 10', color: 'white' },
-    { day: '২৬', content: 'july 11', color: 'white' },
-    { day: '২৭', content: 'july 12', color: 'white' },
-    { day: '২৮', content: 'july 13', color: 'white' },
-    { day: '২৯', content: 'july 14', color: 'white' },
-    { day: '৩০', content: 'july 16', color: 'red' },
-    { day: '৩১', content: 'july 17', color: 'white' },
+    { day: '৪', content: 'august 22', color: 'white' },
+    { day: '৫', content: 'august 23', color: 'white' },
+    { day: '৬', content: 'august 24', color: 'white' },
+    { day: '৭', content: 'august 25', color: 'white' },
+    { day: '৮', content: 'august 26', color: 'white' },
+    { day: '৯', content: 'august 27', color: 'red' },
+    { day: '১০', content: 'august 28', color: 'white' },
+    { day: '১১', content: 'august 29', color: 'white' },
+    { day: '১২', content: 'august 30', color: 'white' },
+    { day: '১৩', content: 'august 31', color: 'white' },
+    { day: '১৪', content: 'sept 1', color: 'white' },
+    { day: '১৫', content: 'sept 2', color: 'white' },
+    { day: '১৬', content: 'sept 3', color: 'red' },
+    { day: '১৭', content: 'sept 4 ', color: 'white' },
+    { day: '১৮', content: 'sept 5', color: 'white' },
+    { day: '১৯', content: 'sept 6', color: 'white' },
+    { day: '২০', content: 'sept 7', color: 'white' },
+    { day: '২১', content: 'sept 8', color: 'white' },
+    { day: '২২', content: 'sept 9', color: 'white' },
+    { day: '২৩', content: 'sept 10', color: 'red' },
+    { day: '২৪', content: 'sept 11', color: 'white' },
+    { day: '২৫', content: 'sept 12', color: 'white' },
+    { day: '২৬', content: 'sept 13', color: 'white' },
+    { day: '২৭', content: 'sept 14', color: 'white' },
+    { day: '২৮', content: 'sept 15', color: 'white' },
+    { day: '২৯', content: 'sept 16', color: 'white' },
+    { day: '৩০', content: 'sept 17', color: 'red' },
+    { day: '৩১', content: 'august 18', color: 'white' },
 
 
     // ... Add more days as needed
@@ -61,7 +61,7 @@ export default function Calneder1() {
        <ul>
        
          <li>
-         আহাৰ (june-july)<br />
+         আহাৰ (august-sept)<br />
            <span style={{ fontSize: '18px' }}>2023-24</span>
          </li>
        </ul>

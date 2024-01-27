@@ -69,7 +69,7 @@ export default function Calneder1() {
        <ul>
          
          <li>
-         জেঠ(may-May)<br />
+         জেঠ(may-june)<br />
            <span style={{ fontSize: '18px' }}>2023-24</span>
          </li>
        </ul>

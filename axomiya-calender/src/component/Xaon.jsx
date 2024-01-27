@@ -44,7 +44,6 @@ export default function Calneder1() {
 
 
 
-    // ... Add more days as needed
   ];
   return (
 
