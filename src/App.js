@@ -4,7 +4,7 @@ import React from 'react'
 import Navbar from './component/Navbar'
 import Jeth from './component/Jeth'
 import Bohag from './component/Bohag'
-import Aahar from './component/Aahar'
+
 import Xaon from './component/Xaon'
 import Bhado from './component/Bhado'
 import Aahin from './component/Aahin'
@@ -35,7 +35,7 @@ const App = () => {
         <Route path='/' element={<Bohag/>}></Route>
         <Route path='/Jeth' element={<Jeth/>} />
         <Route path='/Bohag' element={<Bohag/>} />
-        <Route path='/Aahar' element={<Aahar/>} />
+      
         <Route path='/Xaon' element={<Xaon/>} />
         <Route path='/Bhado' element={<Bhado/>} />
         <Route path='/Aahin' element={<Aahin/>} />
