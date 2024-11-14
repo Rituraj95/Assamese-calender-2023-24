@@ -13,6 +13,7 @@ import Aaghun from './component/Aaghun'
 import Puh from './component/Puh'
 import Magh from './component/Magh'
 import Phagun from './component/Phagun'
+import Weather from './component/Weather'
 import Sout from './component/Sout'
 
 
@@ -28,6 +29,8 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 
 const App = () => {
   return (
+    <>
+    
     <Router>
       
       <Navbar></Navbar>
@@ -55,6 +58,9 @@ const App = () => {
 
       </Routes>
     </Router>
+    <Weather></Weather>
+    </>
+
 
   )
 }
